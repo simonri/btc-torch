@@ -1,0 +1,115 @@
+#trail .count {
+  display: inline-block;
+  width: 40px;
+}
+
+#trail .count:before {
+  content: '#';
+}
+
+#trail .time {
+  display: inline-block;
+  margin-left: 10px;
+  width: 100px;
+}
+
+#trail .tx {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: monospace;
+}
+
+#trail .who {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#trail .who .images {
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    width: 200px;
+    top: 0px;
+}
+
+#trail .who img {
+  margin-left: 4px;
+}
+
+#trail .who .address {
+  font-family: monospace;
+}
+
+#header{
+    background:#eee;
+    padding:2em;
+    text-align:center;
+    font-family:sans-serif
+}
+
+#header img {
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+#trail{
+    margin:0 auto;
+    width:1200px;
+    max-width:100%;
+}
+#trail,body{
+    background:#fafafa
+}
+#trail .count{
+    padding:.25em 0;
+    text-align:center
+}
+#trail>div {
+    text-align:center;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#trail .count{
+    background:#f7941c;
+    padding:.75em 0;
+    border-radius:50%;
+    /*margin:1em 0;*/
+    color:#fff;
+    font-weight:700;
+    width:3.5%;
+    min-width: 42px;
+}
+#trail .time{
+    width:10%;
+    min-width: 100px;
+    margin-left:1%;
+    text-align:center!important
+}
+#trail .tx,#trail .who{
+    /*width:45%;*/
+    margin-left:1%;
+}
+#trail .who{
+    /*width:15%;*/
+}
+#trail,#trail .who .address a{
+    font-family:sans-serif
+}
+#trail .who > span{
+    background:#4ba3e2;
+    border-radius:30px;
+    padding:.5em;
+    display:block;
+    white-space:nowrap;
+    width:160px;
+    overflow:hidden;
+    text-overflow:ellipsis
+}
+#trail .who > span a{
+    color:#fff;
+    text-decoration:none;
+    display:inline-block
+}
