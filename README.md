@@ -2,8 +2,6 @@
 
 A simple monitor of the Bitcoin Cash SLP Torch since [it's inception][genesis].
 
-https://m4ktub.github.io/bch-torch/
-
 ## Build Setup
 
 ``` bash
